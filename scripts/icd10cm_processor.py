@@ -14,8 +14,10 @@ def clean_icd10cm_data(raw_data):
     df = raw_data[["A00", "Cholera"]]
     df.columns = ["code", "description"]
 
-    # Add a timestamp column
+    df = df.drop_duplicates(subset=["code"], keep="first")
+
     df["last_updated"] = datetime.now().isoformat()
+    print("Duplicate codes after cleaning:", df["code"].duplicated().sum())
 
     return df
 
