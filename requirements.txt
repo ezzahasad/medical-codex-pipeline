@@ -1,0 +1,15 @@
+polars
+pandas
+requests
+scipy
+numpy
+matplotlib
+sqlalchemy
+pandas as pd 
+polars as pl
+numpy as np
+scipy as sp 
+matplotlib.pyplot as plt
+sqlalchemy as sa
+requests as req
+python3 -m pip show pandas
