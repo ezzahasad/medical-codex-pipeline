@@ -227,3 +227,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Raw data files (exclude from repo)
+input/
+*.txt
+*.xml
+*.zip
+raw_downloads/
+
+# Processed files are OK to commit
+# output/ - keep these
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
