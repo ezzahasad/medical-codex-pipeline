@@ -8,9 +8,15 @@ def load_icd10cm_data(filepath):
     df = pd.read_csv(filepath, sep=";", dtype=str)
     return df
 
+from datetime import datetime
+
 def clean_icd10cm_data(raw_data):
     df = raw_data[["A00", "Cholera"]]
     df.columns = ["code", "description"]
+
+    # Add a timestamp column
+    df["last_updated"] = datetime.now().isoformat()
+
     return df
 
 def main():
