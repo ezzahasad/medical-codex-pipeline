@@ -1,4 +1,5 @@
 code,description,last_updated
+A1001007Dressing for one wound,Dressing for one wound,2025-09-12
 A2001007Dressing for two wounds,Dressing for two wounds,2025-09-12
 A3001007Dressing for three wounds,Dressing for three wounds,2025-09-12
 A4001007Dressing for four wounds,Dressing for four wounds,2025-09-12
@@ -1270,8 +1271,6 @@ ZC001007Merck/samsung bioepis,Merck/samsung bioepis,2025-09-12
 "22001003Parenteral nutrition supply kit; home mix, per day",Parenteral supply kit homemi,2025-09-12
 "24001003Parenteral nutrition administration kit, per day",Parenteral administration ki,2025-09-12
 00001003Parenteral nutrition solution compounded amino acid and carbohydrates with,Parenteral sol renal-amirosy,2025-09-12
-00001003Parenteral nutrition solution compounded amino acid and carbohydrates with,Parenteral solution hepatic,2025-09-12
-00001003Parenteral nutrition solution compounded amino acid and carbohydrates with,Parenteral sol hepatic fream,2025-09-12
 00001003Enteral nutrition infusion pump - without alarm,Enter infusion pump w/o alrm,2025-09-12
 "02001003Enteral nutrition infusion pump, any type",Enter nutr inf pump any type,2025-09-12
 "04001003Parenteral nutrition infusion pump, portable",Parenteral infus pump portab,2025-09-12
@@ -4333,7 +4332,6 @@ ZC001007Merck/samsung bioepis,Merck/samsung bioepis,2025-09-12
 99001003Patients with a medication dispensing event indicator of a history of asthma,Med disp evt indic hx asth,2025-09-12
 00001003Patients who are identified as having an intolerance or allergy to beta-blocker,Pt id intol/alleg beta-block,2025-09-12
 01001003Hospitalizations in which the patient was transferred directly to a non-acute,Nonacut transf from inpt,2025-09-12
-02001003Patients who use hospice services any time during the measurement period,Pt w/hosp anytime msmt per,2025-09-12
 03001003Patient prescribed at least a 135 day treatment within the 180-day measurement,Pt presc 135 day trmt,2025-09-12
 04001003Patient was not prescribed at least a 135 day treatment within the 180-day,Pt not presc 135 day trmt,2025-09-12
 05001003Patients who use hospice services any time during the measurement period,Pt w/hosp anytime msmt per,2025-09-12
@@ -4495,12 +4493,9 @@ ZC001007Merck/samsung bioepis,Merck/samsung bioepis,2025-09-12
 78001003Remote in-home visit for the evaluation and management of a new patient for use,Remote e/m new pt 10mins,2025-09-12
 79001003Remote in-home visit for the evaluation and management of a new patient for use,Remote e/m new pt 20mins,2025-09-12
 80001003Remote in-home visit for the evaluation and management of a new patient for use,Remote e/m new pt 30 mins,2025-09-12
-81001003Remote in-home visit for the evaluation and management of a new patient for use,Remote e/m new pt 45mins,2025-09-12
-82001003Remote in-home visit for the evaluation and management of a new patient for use,Remote e/m new pt 60mins,2025-09-12
 83001003Remote in-home visit for the evaluation and management of an established,Remote e/m est. pt 10mins,2025-09-12
 84001003Remote in-home visit for the evaluation and management of an established,Remote e/m est. pt  15mins,2025-09-12
 85001003Remote in-home visit for the evaluation and management of an established,Remote e/m est. pt 25mins,2025-09-12
-86001003Remote in-home visit for the evaluation and management of an established,Remote e/m est. pt 40mins,2025-09-12
 87001003Bundled payments for care improvement advanced (bpci advanced) model home visit,Bpci advanced in home visit,2025-09-12
 88001003Palliative care services provided to patient any time during the measurement,Pall serv during meas,2025-09-12
 89001003Documentation of medical reason(s) for not administering pneumococcal vaccine,Med rsn no pneum vax,2025-09-12
@@ -5720,7 +5715,6 @@ ZC001007Merck/samsung bioepis,Merck/samsung bioepis,2025-09-12
 "76001003Injection, zanidatamab-hrii, 2 mg","Inj zanidatamab-hrii, 2 mg",2025-09-12
 "80001003Injection, mitomycin, 5 mg",Mitomycin injection,2025-09-12
 "81001003Mitomycin pyelocalyceal instillation, 1 mg",Mitomycin instillation,2025-09-12
-"85001003Injection, olaratumab, 10 mg","Inj, olaratumab, 10 mg",2025-09-12
 "86001003Injection, glofitamab-gxbm, 2.5 mg","Inj glofitamab gxbm, 2.5 mg",2025-09-12
 "89001003Injection, nivolumab, 2 mg and hyaluronidase-nvhy",Inj nivolumab 2 mg hyaluron,2025-09-12
 "92001003Injection, pemetrexed dipotassium, 10 mg","Inj, pemetrexed dipotassium",2025-09-12
@@ -5768,7 +5762,6 @@ ZC001007Merck/samsung bioepis,Merck/samsung bioepis,2025-09-12
 "41001003Injection, thiotepa (tepylute), 1 mg",Inj thiotepa (tepylute) 1 mg,2025-09-12
 "42001003Injection, thiotepa, not otherwise specified, 1 mg",Inj thiotepa nos 1 mg,2025-09-12
 "45001003Injection, retifanlimab-dlwr, 1 mg","Inj, retifanlimab-dlwr, 1 mg",2025-09-12
-"47001003Injection, tremelimumab-actl, 1 mg","Inj, tremelimumab-actl, 1 mg",2025-09-12
 "48001003Injection, naxitamab-gqgk, 1 mg","Inj. naxitamab-gqgk, 1 mg",2025-09-12
 "49001003Injection, tafasitamab-cxix, 2 mg","Inj., tafasitamab-cxix",2025-09-12
 "50001003Injection, mosunetuzumab-axgb, 1 mg","Inj mosunetuzumab-axgb, 1 mg",2025-09-12
@@ -7199,7 +7192,6 @@ ZC001007Merck/samsung bioepis,Merck/samsung bioepis,2025-09-12
 88001003Documented reason for not screening or recommending a follow-up for high blood,Doc rsn no hbp scrn or f/u,2025-09-12
 89001003Patient identified as tobacco user did not receive tobacco cessation,No pt tbco cess interv rng,2025-09-12
 90001003Patient not eligible due to active diagnosis of hypertension,Pt not eli d/t act dig htn,2025-09-12
-91001003Patients 66 years of age and older with at least one claim/encounter for,Pt 66+ frailty and med dem,2025-09-12
 92001003Patients 66 years of age and older with at least one claim/encounter for,Pt 66+ frail inpt adv ill,2025-09-12
 93001003Bmi is documented above normal parameters and a follow-up plan is documented,Calc bmi abv up param f/u,2025-09-12
 "94001003Normal blood pressure reading documented, follow-up not required",Bp scrn perf rec interval,2025-09-12
@@ -7421,8 +7413,6 @@ ZC001007Merck/samsung bioepis,Merck/samsung bioepis,2025-09-12
 "77001003Hydroxyzine pamoate, 25 mg, oral, fda approved prescription anti-emetic, for",Hydroxyzine pamoate 25mg,2025-09-12
 "80001003Dolasetron mesylate, 100 mg, oral, fda approved prescription anti-emetic, for",Dolasetron mesylate oral,2025-09-12
 "81001003Unspecified oral dosage form, fda approved prescription anti-emetic, for use as",Unspecified oral anti-emetic,2025-09-12
-"20001003Injection, tixagevimab and cilgavimab, for the pre-exposure prophylaxis only,","Tixagev and cilgav, 300mg",2025-09-12
-"21001003Injection, tixagevimab and cilgavimab, for the pre-exposure prophylaxis only,","Tixagev and cilgav, 600mg",2025-09-12
 "22001003Injection, bebtelovimab, 175 mg",Bebtelovimab 175 mg,2025-09-12
 "24001003Injection, pemivibart, for the pre-exposure prophylaxis only, for certain","Inj, pemivibart, 4500 mg",2025-09-12
 "35001003Injection, monoclonal antibody products with an indication for post-exposure","Inj, monoclon antibody, 1 mg",2025-09-12
@@ -7952,7 +7942,6 @@ ZC001007Merck/samsung bioepis,Merck/samsung bioepis,2025-09-12
 "70001003Injection, ferric carboxymaltose, 1mg",Inj ferric carboxymaltos 1mg,2025-09-12
 "72001003Injection, epoetin beta, 1 microgram, (for esrd on dialysis)",Epoetin beta esrd use,2025-09-12
 "73001003Injection, epoetin beta, 1 microgram, (non-esrd use)",Epoetin beta non esrd,2025-09-12
-"74001003Injection, morphine sulfate, preservative-free for epidural or intrathecal use,",Morphine epidural/intratheca,2025-09-12
 "75001003Injection, factor viii fc fusion protein (recombinant), per iu",Factor viii fc fusion recomb,2025-09-12
 "76001003Injection, ferric pyrophosphate citrate solution, 0.1 mg of iron",Inj ferric pyrophosphate cit,2025-09-12
 "77001003Compounded drug, not otherwise classified",Compounded drug noc,2025-09-12

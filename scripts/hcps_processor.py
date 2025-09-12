@@ -1,42 +1,39 @@
 import pandas as pd
 from datetime import datetime
-import os
 
 def main():
-    # Make sure output folder exists
-    os.makedirs("output/csv", exist_ok=True)
-
-    # Load the HCPCS file as fixed-width
+    # Load fixed-width HCPCS file
     hcps = pd.read_fwf(
         "input/HCPC2025_OCT_ANWEB_v3.txt",
+        header=None,
         dtype=str
     )
 
-    # Show structure for debugging
     print("Detected columns:", hcps.shape[1])
-    print("First 10 rows of raw data:")
-    print(hcps.head(10).to_string())
+    print("First 5 rows of raw data:")
+    print(hcps.head().to_string())
 
-    # Rename the first two columns to "code" and "description"
-    hcps = hcps.rename(columns={hcps.columns[0]: "code", hcps.columns[1]: "description"})
+    # Keep only the first two columns: code + description
+    hcps = hcps.iloc[:, :2]
+    hcps = hcps.rename(columns={0: "code", 1: "description"})
 
-    # Keep only code + description, drop empties
-    hcps_small = hcps[["code", "description"]].dropna()
+    # Drop empty rows
+    hcps_small = hcps.dropna(subset=["code", "description"])
+
+    # Remove duplicates
+    hcps_small = hcps_small.drop_duplicates(subset=["code"])
 
     # Add last_updated column
     hcps_small["last_updated"] = datetime.now().date()
 
-    # Save cleaned file
+    # Save to clean output
     hcps_small.to_csv("output/csv/hcps_clean.csv", index=False)
 
-    # Print summary
-    print("✅ Cleaned HCPCS file saved to output/csv/hcps_clean.csv")
+    print("Cleaned HCPCS file saved to output/csv/hcps_clean.csv")
     print("Rows before cleanup:", len(hcps))
     print("Rows after cleanup:", len(hcps_small))
-    print(hcps_small.head(10).to_string())
-
-    print("All columns detected:", hcps.columns.tolist())
-
+    print("First 5 cleaned rows:")
+    print(hcps_small.head().to_string())
 
 if __name__ == "__main__":
     main()

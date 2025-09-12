@@ -247,3 +247,5 @@ venv/
 .vscode/
 .idea/
 output/csv/snomed_clean.csv
+output/csv/npi_clean.csv
+
