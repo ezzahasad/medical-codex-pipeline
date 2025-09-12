@@ -246,3 +246,4 @@ venv/
 # IDE
 .vscode/
 .idea/
+output/csv/snomed_clean.csv
