@@ -30,6 +30,8 @@ def main():
     # Preview first 5 rows
     print(rxnorm_small.head())
 
+# Rechecked RxNorm clean file: confirmed empty rows removed and correct columns kept
+
 if __name__ == "__main__":
     main()
 
