@@ -1,4 +1,4 @@
-hello 
+
 As a beginner, the provided template given by the professor, google searches, AI assistance (including help directly through VS code), and our module lectures from class were very beneficial for working through the assignment and guiding me. I was able to start with a base, further experiment with scripts, and adjust my approaches and data that allowed me to get my end results. The following sections below briefly discuss what I did for each codex, and highlights some issues/mistakes I had in which I tried to resolve. 
 
 # Hcps_processor.py
